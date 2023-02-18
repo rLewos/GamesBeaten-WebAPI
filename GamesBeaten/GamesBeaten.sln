@@ -5,10 +5,14 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesBeaten.Domain", "GamesBeaten.Domain.csproj", "{86696677-517F-4FB8-A2F7-4302D22B9274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesBeaten.UnitTests.Domain", "..\GamesBeaten.UnitTests.Domain\GamesBeaten.UnitTests.Domain.csproj", "{7FB90F21-A62F-4FD5-A94A-DAD593EFA676}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GamesBeaten.UnitTests.Domain", "..\GamesBeaten.UnitTests.Domain\GamesBeaten.UnitTests.Domain.csproj", "{7FB90F21-A62F-4FD5-A94A-DAD593EFA676}"
 	ProjectSection(ProjectDependencies) = postProject
 		{86696677-517F-4FB8-A2F7-4302D22B9274} = {86696677-517F-4FB8-A2F7-4302D22B9274}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesBeaten.Infraestructure", "..\GamesBeaten.Infraestructure\GamesBeaten.Infraestructure.csproj", "{14B9A845-9F25-4EA5-BCBA-F052D67E08BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesBeaten.WebAPI", "..\GamesBeaten.WebAPI\GamesBeaten.WebAPI.csproj", "{386301DD-A4D2-4C0F-9C50-E7B2E955D2C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +28,14 @@ Global
 		{7FB90F21-A62F-4FD5-A94A-DAD593EFA676}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB90F21-A62F-4FD5-A94A-DAD593EFA676}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB90F21-A62F-4FD5-A94A-DAD593EFA676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B9A845-9F25-4EA5-BCBA-F052D67E08BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B9A845-9F25-4EA5-BCBA-F052D67E08BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B9A845-9F25-4EA5-BCBA-F052D67E08BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B9A845-9F25-4EA5-BCBA-F052D67E08BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386301DD-A4D2-4C0F-9C50-E7B2E955D2C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386301DD-A4D2-4C0F-9C50-E7B2E955D2C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386301DD-A4D2-4C0F-9C50-E7B2E955D2C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386301DD-A4D2-4C0F-9C50-E7B2E955D2C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
